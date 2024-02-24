@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Breaking Bad";
+    src: url("../font/Breaking_Bad.ttf");
+}
+
+form {
+    margin-left: 25%;
+    width: 50%;
+}
+
+div {
+    margin-top: 15px;
+}
+
+table {
+    margin:auto;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 5px;
+    border: 5px #2b2d23;
+    empty-cells: hide;
+    background-color: #2b2d23;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+}
+
+p {
+    font-family: 'Helvetica';
+    font-weight: 750;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+#fondo {
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#fondo_tabla {
+    background-color: #0c3e11;
+    text-align: center;
+}
+
+.typo_title {
+    font-family: "Breaking Bad";
+    font-size: 2.5em;
+    color: white;
+}
+
+.typo_normal {
+    font-family: 'Helvetica';
+    font-size: 1em;
+    color: white;
+    line-height: 2em;
+}
+
+.typo_tabla {
+    font-family: 'Helvetica';
+    font-size: 8px;
+    color: black;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+}
+
+.poster {
+    height: 300px;
+    width: 700px;
+    border: 10px;
+    border-style: outset;
+    border-color: brown;
+    border-radius: 22px;
+}
+
+.hank {
+    background-image: url(../img/tabla_periodica/hankschrader.png);
+    background-size: cover;
+    empty-cells:show;
+    width:50px;
+    height:100px;
+}
+
+.color1 {
+    background-color: #b8db1c;
+}
+
+.color2 {
+    background-color: #d4ea73;
+}
+
+.color3 {
+    background-color: #ab8fcc;
+}
+
+.color4 {
+    background-color: #f0f8c8;
+}
+
+.color5 {
+    background-color: #88a31a;
+}
+
+.color6 {
+    background-color: #627126;
+}
+
+.color7 {
+    background-color: #c2db58;
+}
+
+.color8 {
+    background-color: #bbc49c;
+}
+
+.color9 {
+    background-color: #818d51;
+}
+
+.color10 {
+    background-color: #c7c32c;
+}
