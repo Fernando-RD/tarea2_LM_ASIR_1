@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+<body id="fondo">
+    <div>
+        <h1 class="typo_title">BREAKING BAD</h1>
+        <h2 class="typo_normal">¡Que comience el juego!</h2>
+    </div>
+    <div class="typo_normal">
+        <form name="breaking_form" method="post" action="mailto:raul.rodriguez@proeducaglobal.com?subject=Formulario Breaking Bad de Fernando Reig" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Datos personales</legend>
+                Nombre* <input type="text" name="Nombre" placeholder="nombre" required>&emsp;
+                Apellidos* <input type="text" name="apellidos" placeholder="apellidos" required>&emsp;
+                DNI <input type="text" name="DNI" placeholder="00000000X">
+            </fieldset>
+            <fieldset>
+                <legend>Dirección</legend>
+                Calle <input type="text" name="calle" placeholder="calle, número, piso">&emsp;
+                CP <input type="number" name="CP" placeholder="00000" maxlength="5">&emsp;
+                Ciudad <input type="text" name="ciudad" placeholder="ciudad">
+            </fieldset>
+            <fieldset>
+                <legend>Contacto</legend>
+                email* <input type="email" name="correo" placeholder="nombre@correo.com" required>&emsp;
+                teléfono <input type="tel" name="telefono" placeholder="000 000 000">
+            </fieldset>
+            <fieldset>
+                <legend>Otros datos</legend>
+                Sexo    <input type="radio" name="Hombre" value="H">Hombre <input type="radio" name="Mujer" value="M">Mujer&emsp;
+                Fecha de nacimiento <input type="date" name="fecha" value="2000-01-01">
+            </fieldset>
+            <fieldset>
+                <legend>¿Quién quieres ser?</legend>
+                Personaje <select name="personajes" id="personajes">
+                    <option value="1">Walter White</option>
+                    <option value="2">Jesse Pinkman</option>
+                    <option value="3">Saul Goodman</option>
+                    <option value="4">Gustavo Fring</option>
+                    <option value="5">Skyler White</option>
+                    <option value="6">Hank Schrader</option>
+                    <option value="7">Tuco Salamanca</option>
+                    <option value="8">Otro personaje</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <textarea name="comentarios" id="comentarios" cols="80" rows="10"></textarea>
+            </fieldset>
+            <input type="submit" value="Enviar formulario">
+            <input type="reset" value="Borrar formulario">
+            <input type="file" value="Adjuntar archivo" accept=".doc, .pdf, .jpg, .png" multiple>
+        </form>
+    </div>
+</body>
+</html>
